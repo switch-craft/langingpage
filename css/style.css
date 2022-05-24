@@ -1,0 +1,314 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #E5E5E5;
+}
+main {
+  width: 1440px;
+  height: 2148px;
+  background: #FFFFFF;
+  align-content: center;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px;
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  padding-top: 100px;
+  text-align: center;
+}
+h2 {
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Arapey', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+}
+.description {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 208;
+  color: #000000;
+}
+.button-red {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+button {
+  width: 267px;
+  height: 80px;
+  left: 607px;
+  top: 414px;
+  background: #EBAC87;
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px, 50px, 24px, 50px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.container .box {
+  flex: 0 1 300px;
+  margin: 0 10px 0 0;
+}
+.container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin-left: 15px;
+  margin-right: 50px;
+}
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 15px;
+}
+.features {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.caption {
+  width: 1440px;
+  height: 200px;
+  background: url(https://i.ibb.co/tCTKRx9/Clouds.png) repeat-x top /auto 200px, 
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Arapey', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  padding: 250px 120px 100px 120px
+}
+.container-two .box {
+  flex: 0 1 300px;
+  margin: 0 10px 0 0;
+}
+.container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  background: #87C6EB;
+}
+.box {
+  margin-left: 15px;
+  margin-right: 50px;
+}
+.square-white {
+  width: 350px;
+  height: 560px;
+  left: 120px;
+  top: 898px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #EBAC87;
+  left: 140px;
+  border-radius: 50%;
+  padding: 20px,0,0,20px;
+}
+.number {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+}
+.image-mount {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+}
+.image-mount img {
+  width: 100%;
+}
+.text-description {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 20;
+}
+.strong {
+  font-style: bold;
+}
+.mount {
+  width: 1440px;
+  height: 475px;
+  left: 120px;
+  top: 1493px;
+  background: url(https://i.ibb.co/6HjWKZb/Rectangle-4.png) no-repeat right bottom /auto 475px, #87C6EB;
+  padding-top: 50px;
+  padding-left: 120px;
+}
+h3 {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.description-below {
+  width: 600px;
+  height: 73px;
+  left: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.button-white {
+  margin-bottom: 50px;
+}
+button-two {
+  width: 220px;
+  height: 80px;
+  left: 120px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  padding: 24px, 50px, 24px, 50px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #EBAC87
+}
+.circle-question {
+  width: 80px;
+  height: 80px;
+  background: #EBAC87;
+  right: 120px;
+  bottom: 50px;
+  border-radius: 50%;
+}
+.question-mark {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container-three .box {
+  margin: 0 10px 0 0;
+}
+.container-three {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.footer {
+  width: 1440px;
+  height: 180px;
+  background: white;
+}
+.container-footer .box {
+  margin: 0 10px 0 0;
+}
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
